@@ -22,7 +22,7 @@ I'm a passionate developer with a strong foundation in JavaScript, PHP, Shell, T
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ANGEOM21&show_icons=true&theme=radical)  
 
 ### 📫 Let's Connect!  
-- 📸 [Instagram](https://www.instagram.com/angeom21/)  
+- 📸 [Telegram](https://www.t.me/angeom21/)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/fahmi-idris-anjounghan-023827283/)  
 - 🌐 [Personal Website/Blog](https://angeom.my.id/)  
 
