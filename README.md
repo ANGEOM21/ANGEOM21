@@ -18,9 +18,8 @@ I'm a passionate developer with a strong foundation in JavaScript, PHP, Shell, T
 - 🌱 Learning and exploring new programming paradigms  
 - 🚀 Experimenting with cloud computing and DevOps  
 
-### 📈 GitHub Stats  
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ANGEOM21&show_icons=true&theme=radical)  
-
+### 📈 Activity Graph 
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ANGEOM21&theme=tokyo-night)
 ### 📫 Let's Connect!  
 - 📸 [Telegram](https://www.t.me/angeom21/)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/fahmi-idris-anjounghan-023827283/)  
