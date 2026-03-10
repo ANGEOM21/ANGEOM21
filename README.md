@@ -22,7 +22,5 @@ I'm a passionate developer with a strong foundation in JavaScript, PHP, Shell, T
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ANGEOM21&theme=tokyo-night)
 ### 📫 Let's Connect!  
 - 📸 [Telegram](https://www.t.me/angeom21/)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/fahmi-idris-anjounghan-023827283/)  
-- 🌐 [Personal Website/Blog](https://angeom.my.id/)  
 
 Let's collaborate and build something amazing!  
