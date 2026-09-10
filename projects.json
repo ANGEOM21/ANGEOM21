@@ -4,12 +4,12 @@
     "repo": "ANGEOM21/app-logicbookai-v2",
     "logo": "logicbook.png",
     "description": "AI-Powered ERP & Smart Business Analytics Platform",
-    "tags": ["Vue", "Nuxt", "Python", "FastAPI"]
+    "tags": ["React", "Node.js", "Python", "Frappe", "Tailwind", "Erp"]
   },
   {
     "name": "Aplikasi Web Laundry",
     "repo": "ANGEOM21/laundry-syifa",
-    "logo": "laundry.png",
+    "logo": "laundry.webp",
     "description": "Aplikasi Laundry untuk manajemen pelanggan dan penyucian target",
     "tags": ["PHP", "JavaScript", "Bootstrap", "jQuery"]
   },
@@ -44,7 +44,7 @@
   {
     "name": "Tulle Capture",
     "repo": "ANGEOM21/capturing-moments",
-    "logo": "tulle.svg",
+    "logo": "tulle.png",
     "description": "Platform booking videographer & wedding documentation portfolio",
     "tags": ["React", "Vite", "Tailwind", "Redux"]
   },
