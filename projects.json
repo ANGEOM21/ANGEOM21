@@ -1,45 +1,58 @@
 [
   {
-    "name": "LeadUnity",
-    "repo": "arifhaxn/lead_unity",
-    "logo": "logo.png",
-    "description": "Leading University's defense setup",
-    "tags": ["Flutter", "Dart", "NextJS"]
+    "name": "LogicBook AI v2",
+    "repo": "ANGEOM21/app-logicbookai-v2",
+    "logo": "logicbook.png",
+    "description": "AI-Powered ERP & Smart Business Analytics Platform",
+    "tags": ["Vue", "Nuxt", "Python", "FastAPI"]
   },
   {
-    "name": "OnePick",
-    "repo": "arifhaxn/one_pick",
-    "logo": "op.png",
-    "description": "An One Piece trivia app to find your character",
-    "tags": ["Flutter", "Dart"]
+    "name": "Aplikasi Web Laundry",
+    "repo": "ANGEOM21/laundry-syifa",
+    "logo": "laundry.png",
+    "description": "Aplikasi Laundry untuk manajemen pelanggan dan penyucian target",
+    "tags": ["PHP", "JavaScript", "Bootstrap", "jQuery"]
   },
   {
-    "name": "Chessy",
-    "repo": "arifhaxn/chessy",
-    "logo": "chess.png",
-    "description": "Chess timer app for all types of variations",
-    "tags": ["Flutter", "Dart"]
+    "name": "Aplikasi Desa Pasirkamuning",
+    "repo": "ANGEOM21/desa-paskam",
+    "logo": "desa.png",
+    "description": "Sistem informasi desa, administrasi surat menyurat dan kependudukan",
+    "tags": ["Laravel", "Livewire", "Tailwind", "MySQL"]
   },
   {
-    "name": "Claster",
-    "repo": "arifhaxn/Claster",
-    "logo": "claster.png",
-    "description": "A class scheduling app for teachers which is used to track routines",
-    "tags": ["Flutter", "Dart", "Firebase"]
+    "name": "BSM Ledger",
+    "repo": "ANGEOM21/bsm-ledger",
+    "logo": "bsm.png",
+    "description": "Aplikasi manajemen keuangan PT. BSM dengan fitur ledger & transaksi",
+    "tags": ["Laravel", "PHP", "Tailwind", "Livewire"]
   },
   {
-    "name": "OneTELE",
-    "repo": "arifhaxn/OneTELE---Liilab-Teleprompter",
-    "logo": "onetele.png",
-    "description": "A custom teleprompter for liilab's recording studio",
-    "tags": ["Flutter", "Dart"]
+    "name": "QR Scanner Catering",
+    "repo": "ANGEOM21/qr-cattering",
+    "logo": "cattering.png",
+    "description": "Aplikasi pemesanan makanan online dengan verifikasi scan QR",
+    "tags": ["Laravel", "Filament", "Tailwind", "MySQL"]
   },
   {
-    "name": "Career Logic AI",
-    "repo": "arifhaxn/CareerLogic-AI",
-    "logo": "cl.png",
-    "description": "An AI Powered CV management and assesment system for aspiring career builders",
-    "tags": ["Flutter", "Dart", "Groq"]
+    "name": "Antar Aje",
+    "repo": "ANGEOM21/antar-aje",
+    "logo": "antaraje.png",
+    "description": "Sistem pengantaran logistik barang, tracking resi dan staf kurir",
+    "tags": ["Laravel", "Livewire", "Bootstrap", "MySQL"]
+  },
+  {
+    "name": "Tulle Capture",
+    "repo": "ANGEOM21/capturing-moments",
+    "logo": "tulle.svg",
+    "description": "Platform booking videographer & wedding documentation portfolio",
+    "tags": ["React", "Vite", "Tailwind", "Redux"]
+  },
+  {
+    "name": "TikTok Downloader",
+    "repo": "ANGEOM21/tik-snap-scrap",
+    "logo": "tiktok.png",
+    "description": "Fast TikTok video downloader tanpa watermark berbasis API scraper",
+    "tags": ["Node.js", "Express", "React", "TypeScript"]
   }
 ]
-
