@@ -3,7 +3,6 @@ from PIL import Image, ImageOps, ImageEnhance
 
 # 1. Process profile photo
 img = Image.open(r"D:\berkas\profile.jpeg")
-# Crop top 900x1080 (5:6 aspect ratio)
 crop = img.crop((0, 0, 900, 1080)).resize((300, 360), Image.Resampling.LANCZOS)
 gray = ImageOps.grayscale(crop)
 
@@ -55,25 +54,28 @@ for y in range(360):
 
 light_path_d = "".join(runs_light)
 
+# Vector Paths
 py_blue = "M49.6 1.5c-12.7 0-21.8 5.6-21.8 16.4v12.2h22.2v3.1H20.7C9.3 33.2 0 42.5 0 54c0 11.4 9.6 20.3 20.7 20.3h7.2v-9.8c0-11.8 9.9-21.4 21.7-21.4h22.2V30.5c0-10.8-9.1-16.4-21.8-16.4h-.4zm-11.8 8.6c2.4 0 4.3 1.9 4.3 4.3 0 2.4-1.9 4.3-4.3 4.3-2.4 0-4.3-1.9-4.3-4.3 0-2.4 1.9-4.3 4.3-4.3z"
 py_yellow = "M50.4 98.5c12.7 0 21.8-5.6 21.8-16.4V69.9H50V66.8h29.3c11.4 0 20.7-9.3 20.7-20.8 0-11.4-9.6-20.3-20.7-20.3h-7.2v9.8c0 11.8-9.9 21.4-21.7 21.4H28.2v12.6c0 10.8 9.1 16.4 21.8 16.4h.4zm11.8-8.6c-2.4 0-4.3-1.9-4.3-4.3 0-2.4 1.9-4.3 4.3-4.3 2.4 0 4.3 1.9 4.3 4.3 0 2.4-1.9 4.3-4.3 4.3z"
 
+KEY_TIMES_5 = "0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
+
 def build_slides_dark():
     return f'''
-    <!-- SLIDE 1: PROFILE PHOTO -->
+    <!-- SLIDE 1: PROFILE PHOTO (FAHMI IDRIS ANJOUNGHAN) -->
     <g id="slide-photo">
-      <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;1" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#0B0F17" stroke="#22D3EE" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.6"/>
       <g fill="url(#avatar-glow)" opacity="0.95">
         <path d="{dark_path_d}"/>
       </g>
-      <rect x="20" y="325" width="260" height="26" rx="6" fill="#030712" fill-opacity="0.85" stroke="#22D3EE" stroke-width="1"/>
-      <text x="150" y="342" text-anchor="middle" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="2">FAHMI IDRIS</text>
+      <rect x="12" y="325" width="276" height="26" rx="6" fill="#030712" fill-opacity="0.9" stroke="#22D3EE" stroke-width="1"/>
+      <text x="150" y="342" text-anchor="middle" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" letter-spacing="1.2">FAHMI IDRIS ANJOUNGHAN</text>
     </g>
 
     <!-- SLIDE 2: JAVASCRIPT LOGO -->
     <g id="slide-js">
-      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#0F172A" fill-opacity="0.95" stroke="#F7DF1E" stroke-width="1.5" stroke-opacity="0.8"/>
       <path d="M20 20h260v320h-260z" fill="none" stroke="#F7DF1E" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
       
@@ -92,7 +94,7 @@ def build_slides_dark():
 
     <!-- SLIDE 3: PYTHON LOGO -->
     <g id="slide-py">
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#0F172A" fill-opacity="0.95" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.8"/>
       <path d="M20 20h260v320h-260z" fill="none" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
       
@@ -109,9 +111,28 @@ def build_slides_dark():
       <text x="150" y="312" text-anchor="middle" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 02 &#9670;</text>
     </g>
 
-    <!-- SLIDE 4: REACT LOGO -->
+    <!-- SLIDE 4: PHP LOGO -->
+    <g id="slide-php">
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="300" height="360" rx="10" fill="#0F172A" fill-opacity="0.95" stroke="#818CF8" stroke-width="1.5" stroke-opacity="0.8"/>
+      <path d="M20 20h260v320h-260z" fill="none" stroke="#818CF8" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
+      
+      <g transform="translate(150, 110)">
+        <ellipse cx="0" cy="0" rx="72" ry="44" fill="#4F5B93" stroke="#818CF8" stroke-width="2"/>
+        <text x="0" y="14" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', Arial, sans-serif" font-weight="900" font-size="42" letter-spacing="3">php</text>
+      </g>
+      
+      <text x="150" y="215" text-anchor="middle" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800" letter-spacing="2">PHP / LARAVEL</text>
+      <text x="150" y="242" text-anchor="middle" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">Laravel &#8226; REST APIs</text>
+      <text x="150" y="265" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">Enterprise Backend Systems</text>
+      
+      <rect x="40" y="295" width="220" height="26" rx="6" fill="#030712" stroke="#818CF8" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="150" y="312" text-anchor="middle" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 03 &#9670;</text>
+    </g>
+
+    <!-- SLIDE 5: REACT LOGO -->
     <g id="slide-react">
-      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#0F172A" fill-opacity="0.95" stroke="#61DAFB" stroke-width="1.5" stroke-opacity="0.8"/>
       <path d="M20 20h260v320h-260z" fill="none" stroke="#61DAFB" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
       
@@ -130,26 +151,26 @@ def build_slides_dark():
       <text x="150" y="265" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">Interactive UI &#8226; Web Apps</text>
       
       <rect x="40" y="295" width="220" height="26" rx="6" fill="#030712" stroke="#61DAFB" stroke-width="1" stroke-opacity="0.6"/>
-      <text x="150" y="312" text-anchor="middle" fill="#61DAFB" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 03 &#9670;</text>
+      <text x="150" y="312" text-anchor="middle" fill="#61DAFB" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 04 &#9670;</text>
     </g>
 '''
 
 def build_slides_light():
     return f'''
-    <!-- SLIDE 1: PROFILE PHOTO -->
+    <!-- SLIDE 1: PROFILE PHOTO (FAHMI IDRIS ANJOUNGHAN) -->
     <g id="slide-photo">
-      <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;1" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.6"/>
       <g fill="url(#avatar-glow)" opacity="0.95">
         <path d="{light_path_d}"/>
       </g>
-      <rect x="20" y="325" width="260" height="26" rx="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#0284C7" stroke-width="1"/>
-      <text x="150" y="342" text-anchor="middle" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="2">FAHMI IDRIS</text>
+      <rect x="12" y="325" width="276" height="26" rx="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#0284C7" stroke-width="1"/>
+      <text x="150" y="342" text-anchor="middle" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" letter-spacing="1.2">FAHMI IDRIS ANJOUNGHAN</text>
     </g>
 
     <!-- SLIDE 2: JAVASCRIPT LOGO -->
     <g id="slide-js">
-      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#FFFFFF" fill-opacity="0.95" stroke="#EAB308" stroke-width="1.5" stroke-opacity="0.8"/>
       <path d="M20 20h260v320h-260z" fill="none" stroke="#EAB308" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
       
@@ -168,7 +189,7 @@ def build_slides_light():
 
     <!-- SLIDE 3: PYTHON LOGO -->
     <g id="slide-py">
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#FFFFFF" fill-opacity="0.95" stroke="#0284C7" stroke-width="1.5" stroke-opacity="0.8"/>
       <path d="M20 20h260v320h-260z" fill="none" stroke="#0284C7" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
       
@@ -185,9 +206,28 @@ def build_slides_light():
       <text x="150" y="312" text-anchor="middle" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 02 &#9670;</text>
     </g>
 
-    <!-- SLIDE 4: REACT LOGO -->
+    <!-- SLIDE 4: PHP LOGO -->
+    <g id="slide-php">
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="300" height="360" rx="10" fill="#FFFFFF" fill-opacity="0.95" stroke="#6366F1" stroke-width="1.5" stroke-opacity="0.8"/>
+      <path d="M20 20h260v320h-260z" fill="none" stroke="#6366F1" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
+      
+      <g transform="translate(150, 110)">
+        <ellipse cx="0" cy="0" rx="72" ry="44" fill="#4F5B93" stroke="#6366F1" stroke-width="2"/>
+        <text x="0" y="14" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', Arial, sans-serif" font-weight="900" font-size="42" letter-spacing="3">php</text>
+      </g>
+      
+      <text x="150" y="215" text-anchor="middle" fill="#4F46E5" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800" letter-spacing="2">PHP / LARAVEL</text>
+      <text x="150" y="242" text-anchor="middle" fill="#1E293B" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">Laravel &#8226; REST APIs</text>
+      <text x="150" y="265" text-anchor="middle" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">Enterprise Backend Systems</text>
+      
+      <rect x="40" y="295" width="220" height="26" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="150" y="312" text-anchor="middle" fill="#4F46E5" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 03 &#9670;</text>
+    </g>
+
+    <!-- SLIDE 5: REACT LOGO -->
     <g id="slide-react">
-      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0" keyTimes="{KEY_TIMES_5}" dur="20s" repeatCount="indefinite"/>
       <rect x="0" y="0" width="300" height="360" rx="10" fill="#FFFFFF" fill-opacity="0.95" stroke="#0284C7" stroke-width="1.5" stroke-opacity="0.8"/>
       <path d="M20 20h260v320h-260z" fill="none" stroke="#0284C7" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 4"/>
       
@@ -206,7 +246,7 @@ def build_slides_light():
       <text x="150" y="265" text-anchor="middle" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">Interactive UI &#8226; Web Apps</text>
       
       <rect x="40" y="295" width="220" height="26" rx="6" fill="#F0F9FF" stroke="#0284C7" stroke-width="1" stroke-opacity="0.6"/>
-      <text x="150" y="312" text-anchor="middle" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 03 &#9670;</text>
+      <text x="150" y="312" text-anchor="middle" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">&#9670; TECH STACK 04 &#9670;</text>
     </g>
 '''
 
@@ -244,7 +284,7 @@ text {{ font-family: 'JetBrains Mono', monospace; }}
 <rect width="1180" height="610" rx="20" fill="url(#bg)"/>
 <rect width="1180" height="610" rx="20" fill="url(#grid)"/>
 
-<!-- LEFT PANEL: SLIDESHOW (PHOTO -> JS -> PYTHON -> REACT) -->
+<!-- LEFT PANEL: SLIDESHOW (PHOTO -> JS -> PYTHON -> PHP -> REACT) -->
 <g>
 <rect x="36" y="36" width="390" height="538" rx="14" fill="#0B0F17" fill-opacity="0.8" stroke="url(#panel-border)" stroke-width="1.5"/>
 <line x1="36" y1="80" x2="426" y2="80" stroke="rgba(148,163,184,0.12)" stroke-width="1"/>
@@ -337,7 +377,7 @@ text {{ font-family: 'JetBrains Mono', monospace; }}
 <rect width="1180" height="610" rx="20" fill="url(#bg)"/>
 <rect width="1180" height="610" rx="20" fill="url(#grid)"/>
 
-<!-- LEFT PANEL: SLIDESHOW (PHOTO -> JS -> PYTHON -> REACT) -->
+<!-- LEFT PANEL: SLIDESHOW (PHOTO -> JS -> PYTHON -> PHP -> REACT) -->
 <g>
 <rect x="36" y="36" width="390" height="538" rx="14" fill="#FFFFFF" fill-opacity="0.9" stroke="url(#panel-border)" stroke-width="1.5"/>
 <line x1="36" y1="80" x2="426" y2="80" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
@@ -404,4 +444,4 @@ with open(r"E:\pemograman\GITHUB\angeom21\light.svg", "w", encoding="utf-8") as 
 
 ET.fromstring(dark_svg)
 ET.fromstring(light_svg)
-print("SUCCESS: dark.svg and light.svg generated and XML-validated successfully!")
+print("SUCCESS: 5-slide banners generated and XML validated!")
