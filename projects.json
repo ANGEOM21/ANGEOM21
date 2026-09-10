@@ -42,6 +42,20 @@
     "tags": ["Laravel", "Livewire", "Bootstrap", "MySQL"]
   },
   {
+    "name": "App-Tar (Tabungan & Kasbon)",
+    "repo": "ANGEOM21/app-tar",
+    "logo": "app-tar.png",
+    "description": "Sistem tabungan & kasbon terintegrasi untuk siswa dan guru",
+    "tags": ["Laravel", "Livewire", "Tailwind", "MySQL"]
+  },
+  {
+    "name": "Farming App (Manajemen Padi)",
+    "repo": "ANGEOM21/farming-app",
+    "logo": "farming-app.png",
+    "description": "Manajemen siklus budidaya padi dari pembibitan hingga analisis hasil panen",
+    "tags": ["Laravel", "Filament", "Tailwind", "Analytics"]
+  },
+  {
     "name": "Tulle Capture",
     "repo": "ANGEOM21/capturing-moments",
     "logo": "tulle.png",
