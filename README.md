@@ -2,9 +2,9 @@
 <!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/light.svg">
-  <img alt="Fahmi Idris Anjounghan" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Fahmi Idris Anjounghan" src="./light.svg">
 </picture>
 
 <!-- ===== GITHUB STATS ===== -->
@@ -47,7 +47,11 @@
 <br/>
 <br/>
 <div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects.svg" alt="Projects" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./projects.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./projects-light.svg" />
+  <img width="100%" src="./projects.svg" alt="Projects" />
+</picture>
 </div>
 
 <!-- ===== SOCIAL BADGES ===== -->

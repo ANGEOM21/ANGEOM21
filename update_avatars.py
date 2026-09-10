@@ -120,6 +120,7 @@ def update_svg(svg_path, groups_str, sparkles_str):
         content[:start_pos] + "\n" +
         groups_str + "\n" +
         sparkles_str + "\n" +
+        "</g>\n" +
         content[end_idx:]
     )
     
