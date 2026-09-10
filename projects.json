@@ -37,7 +37,7 @@
   {
     "name": "ProFX Journal",
     "repo": "ANGEOM21/profx-journal",
-    "logo": "profx.png",
+    "logo": "profx.svg",
     "description": "Jurnal analitik trading Forex/Saham untuk evaluasi win-rate & risk reward",
     "tags": ["React", "TypeScript", "Tailwind", "Analytics"]
   },

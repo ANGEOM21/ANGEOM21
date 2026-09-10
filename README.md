@@ -48,9 +48,9 @@
 <br/>
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects.svg?v=20260911_07" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects-light.svg?v=20260911_07" />
-  <img width="100%" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects.svg?v=20260911_07" alt="Projects" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects.svg?v=20260911_08" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects-light.svg?v=20260911_08" />
+  <img width="100%" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects.svg?v=20260911_08" alt="Projects" />
 </picture>
 </div>
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGradient)"/>
+  
+  <!-- Chart bars -->
+  <g fill="#10B981" opacity="0.8">
+    <rect x="80" y="320" width="40" height="120" rx="4"/>
+    <rect x="140" y="280" width="40" height="160" rx="4"/>
+    <rect x="200" y="240" width="40" height="200" rx="4"/>
+    <rect x="260" y="200" width="40" height="240" rx="4"/>
+    <rect x="320" y="220" width="40" height="220" rx="4"/>
+    <rect x="380" y="260" width="40" height="180" rx="4"/>
+    <rect x="440" y="300" width="40" height="140" rx="4"/>
+  </g>
+  
+  <!-- Trend line -->
+  <polyline points="80,320 140,280 200,240 260,200 320,220 380,260 440,300" 
+            fill="none" stroke="#3B82F6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  
+  <!-- Title text -->
+  <text x="256" y="60" font-size="48" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif">
+    TJ
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="256" y="450" font-size="24" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" opacity="0.7">
+    TRADER
+  </text>
+</svg>
