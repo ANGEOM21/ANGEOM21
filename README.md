@@ -2,9 +2,9 @@
 <!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/dark.svg?v=20260911_02">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/light.svg?v=20260911_02">
-  <img alt="Fahmi Idris Anjounghan" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/dark.svg?v=20260911_02">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/dark.svg?v=20260911_04">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/light.svg?v=20260911_04">
+  <img alt="Fahmi Idris Anjounghan" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/dark.svg?v=20260911_04">
 </picture>
 
 <!-- ===== GITHUB STATS ===== -->
@@ -48,9 +48,9 @@
 <br/>
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/projects.svg?v=20260911_03" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/projects-light.svg?v=20260911_03" />
-  <img width="100%" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/main/projects.svg?v=20260911_03" alt="Projects" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects.svg?v=20260911_04" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects-light.svg?v=20260911_04" />
+  <img width="100%" src="https://raw.githubusercontent.com/ANGEOM21/ANGEOM21/projects/projects.svg?v=20260911_04" alt="Projects" />
 </picture>
 </div>
 
