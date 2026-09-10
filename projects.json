@@ -4,21 +4,14 @@
     "repo": "ANGEOM21/app-logicbookai-v2",
     "logo": "logicbook.png",
     "description": "AI-Powered ERP & Smart Business Analytics Platform",
-    "tags": ["React", "Node.js", "Python", "Frappe", "Tailwind", "Erp"]
+    "tags": ["React", "Node.js", "Python", "Frappe", "Tailwind"]
   },
   {
-    "name": "Aplikasi Web Laundry",
-    "repo": "ANGEOM21/laundry-syifa",
-    "logo": "laundry.webp",
-    "description": "Aplikasi Laundry untuk manajemen pelanggan dan penyucian target",
-    "tags": ["PHP", "JavaScript", "Bootstrap", "jQuery"]
-  },
-  {
-    "name": "Aplikasi Desa Pasirkamuning",
-    "repo": "ANGEOM21/desa-paskam",
-    "logo": "desa.png",
-    "description": "Sistem informasi desa, administrasi surat menyurat dan kependudukan",
-    "tags": ["Laravel", "Livewire", "Tailwind", "MySQL"]
+    "name": "Portal AGI (QC & Trend)",
+    "repo": "ANGEOM21/portalagi",
+    "logo": "portalagi.png",
+    "description": "Industrial Quality Control, Trend Monitoring & Metrology Calibration System",
+    "tags": ["Laravel", "PHP", "Statistical QC", "MySQL"]
   },
   {
     "name": "BSM Ledger",
@@ -28,18 +21,32 @@
     "tags": ["Laravel", "PHP", "Tailwind", "Livewire"]
   },
   {
-    "name": "QR Scanner Catering",
-    "repo": "ANGEOM21/qr-cattering",
-    "logo": "cattering.png",
-    "description": "Aplikasi pemesanan makanan online dengan verifikasi scan QR",
-    "tags": ["Laravel", "Filament", "Tailwind", "MySQL"]
+    "name": "Egg Detector (YOLO AI)",
+    "repo": "ANGEOM21/egg-detection-yolo",
+    "logo": "egg.png",
+    "description": "Mobile Edge AI real-time egg object detection & counting on Android",
+    "tags": ["Android", "YOLO", "Python", "Computer Vision"]
   },
   {
-    "name": "Antar Aje",
-    "repo": "ANGEOM21/antar-aje",
-    "logo": "antaraje.png",
-    "description": "Sistem pengantaran logistik barang, tracking resi dan staf kurir",
-    "tags": ["Laravel", "Livewire", "Bootstrap", "MySQL"]
+    "name": "Batik Deteksi (CNN)",
+    "repo": "ANGEOM21/batik-deteksi",
+    "logo": "batik.png",
+    "description": "Klasifikasi corak & motif batik berbasis Convolutional Neural Network",
+    "tags": ["React", "Python", "CNN", "Deep Learning"]
+  },
+  {
+    "name": "ProFX Journal",
+    "repo": "ANGEOM21/profx-journal",
+    "logo": "profx.png",
+    "description": "Jurnal analitik trading Forex/Saham untuk evaluasi win-rate & risk reward",
+    "tags": ["React", "TypeScript", "Tailwind", "Analytics"]
+  },
+  {
+    "name": "Farming App (Padi)",
+    "repo": "ANGEOM21/farming-app",
+    "logo": "farming-app.png",
+    "description": "Manajemen siklus budidaya padi dari pembibitan hingga analisis hasil panen",
+    "tags": ["Laravel", "Filament", "Tailwind", "AgroTech"]
   },
   {
     "name": "App-Tar (Tabungan & Kasbon)",
@@ -49,11 +56,46 @@
     "tags": ["Laravel", "Livewire", "Tailwind", "MySQL"]
   },
   {
-    "name": "Farming App (Manajemen Padi)",
-    "repo": "ANGEOM21/farming-app",
-    "logo": "farming-app.png",
-    "description": "Manajemen siklus budidaya padi dari pembibitan hingga analisis hasil panen",
-    "tags": ["Laravel", "Filament", "Tailwind", "Analytics"]
+    "name": "Aplikasi Web Laundry",
+    "repo": "ANGEOM21/laundry-syifa",
+    "logo": "laundry.webp",
+    "description": "Aplikasi Laundry untuk manajemen pelanggan dan penyucian target",
+    "tags": ["PHP", "JavaScript", "Bootstrap", "jQuery"]
+  },
+  {
+    "name": "QR Scanner Catering",
+    "repo": "ANGEOM21/qr-cattering",
+    "logo": "cattering.png",
+    "description": "Aplikasi pemesanan makanan online dengan verifikasi scan QR",
+    "tags": ["Laravel", "Filament", "Tailwind", "MySQL"]
+  },
+  {
+    "name": "Aplikasi Desa Pasirkamuning",
+    "repo": "ANGEOM21/desa-paskam",
+    "logo": "desa.png",
+    "description": "Sistem informasi desa, administrasi surat menyurat dan kependudukan",
+    "tags": ["Laravel", "Livewire", "Tailwind", "MySQL"]
+  },
+  {
+    "name": "Antar Aje",
+    "repo": "ANGEOM21/antar-aje",
+    "logo": "antaraje.png",
+    "description": "Sistem pengantaran logistik barang, tracking resi dan staf kurir",
+    "tags": ["Laravel", "Livewire", "Bootstrap", "MySQL"]
+  },
+  {
+    "name": "SOKUJA Anime Streaming",
+    "repo": "ANGEOM21/sokuja-anime-api",
+    "logo": "sokuja.svg",
+    "description": "High-performance video streaming & scraping API provider engine",
+    "tags": ["Node.js", "Express", "Cheerio", "REST API"]
+  },
+  {
+    "name": "WhatsApp AI Bot Assistant",
+    "repo": "ANGEOM21/chat-wa-bot-ai",
+    "logo": "wa-bot.svg",
+    "description": "Automated intelligent WhatsApp assistant bot powered by LLM / AI",
+    "tags": ["Node.js", "WhatsApp API", "AI / LLM", "Automation"]
   },
   {
     "name": "Tulle Capture",
