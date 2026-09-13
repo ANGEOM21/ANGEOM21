@@ -1,0 +1,418 @@
+{
+  "user": {
+    "name": "Fahmi Idris Anjounghan",
+    "handle": "angeom21",
+    "github": "https://github.com/ANGEOM21",
+    "linkedin": "https://www.linkedin.com/in/fahmi-idris-anjounghan-023827283/",
+    "telegram": "https://t.me/angeom21"
+  },
+  "total_projects": 22,
+  "projects": [
+    {
+      "id": "logicbook-ai-v2",
+      "name": "LogicBook AI v2",
+      "category": "Enterprise & AI ERP",
+      "description": "AI-Powered ERP & Smart Business Analytics Platform",
+      "local_directory": "E:/pemograman/projek/erp-projek/app-logicbookai-v2",
+      "github_repo": "ANGEOM21/app-logicbookai-v2",
+      "github_url": "https://github.com/ANGEOM21/app-logicbookai-v2",
+      "live_url": null,
+      "logo": "logos/logicbook.png",
+      "tech_stack": [
+        "React",
+        "Node.js",
+        "Python",
+        "Frappe",
+        "Tailwind"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "portal-agi-qc",
+      "name": "Portal AGI (QC & Trend Control)",
+      "category": "Industrial & Enterprise QC",
+      "description": "Industrial Quality Control, Trend Monitoring & Metrology Calibration System",
+      "local_directory": "E:/pemograman/laragon/portalagi",
+      "github_repo": "ANGEOM21/portalagi",
+      "github_url": "https://github.com/ANGEOM21/portalagi",
+      "live_url": null,
+      "logo": "logos/portalagi.png",
+      "tech_stack": [
+        "Laravel",
+        "PHP",
+        "Statistical QC",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "bsm-ledger",
+      "name": "BSM Ledger",
+      "category": "FinTech & Corporate Finance",
+      "description": "Aplikasi manajemen keuangan PT. BSM dengan fitur ledger, transaksi, dan pelaporan",
+      "local_directory": "E:/pemograman/laragon/bsm-ledger",
+      "github_repo": "ANGEOM21/bsm-ledger",
+      "github_url": "https://github.com/ANGEOM21/bsm-ledger",
+      "live_url": "https://bsm-ledger.project-web.my.id/dashboard",
+      "logo": "logos/bsm.png",
+      "tech_stack": [
+        "Laravel",
+        "PHP",
+        "Tailwind",
+        "DaisyUI",
+        "MySQL",
+        "Livewire"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "egg-detection-yolo",
+      "name": "Egg Detector (YOLO AI)",
+      "category": "AI & Computer Vision",
+      "description": "Mobile Edge AI real-time egg object detection & counting on Android using YOLO",
+      "local_directory": "E:/pemograman/android/Aplikasi_Android/DeteksiTelurv3",
+      "github_repo": "ANGEOM21/egg-detection-yolo",
+      "github_url": "https://github.com/ANGEOM21/egg-detection-yolo",
+      "live_url": null,
+      "logo": "logos/egg.png",
+      "tech_stack": [
+        "Android",
+        "YOLO",
+        "Python",
+        "Computer Vision",
+        "Java/Kotlin"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "batik-deteksi-cnn",
+      "name": "Batik Deteksi (CNN)",
+      "category": "AI & Computer Vision",
+      "description": "Klasifikasi corak & motif batik berbasis Convolutional Neural Network (CNN)",
+      "local_directory": "D:/pemograman/react/batik-deteksi",
+      "github_repo": "ANGEOM21/batik-deteksi",
+      "github_url": "https://github.com/ANGEOM21/batik-deteksi",
+      "live_url": null,
+      "logo": "logos/batik.png",
+      "tech_stack": [
+        "React",
+        "Python",
+        "CNN",
+        "TensorFlow",
+        "Deep Learning"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "profx-journal",
+      "name": "ProFX Journal",
+      "category": "FinTech & Trading Analytics",
+      "description": "Jurnal analitik trading Forex/Saham untuk evaluasi win-rate, RR ratio, dan risk management",
+      "local_directory": "D:/pemograman/react/trading-journal",
+      "github_repo": "ANGEOM21/profx-journal",
+      "github_url": "https://github.com/ANGEOM21/profx-journal",
+      "live_url": null,
+      "logo": "logos/profx.svg",
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Vite",
+        "Analytics"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "farming-app",
+      "name": "Farming App (Manajemen Padi)",
+      "category": "AgroTech & Crop Management",
+      "description": "Manajemen siklus budidaya padi dari pembibitan hingga analisis laba panen",
+      "local_directory": "E:/pemograman/laragon/farming-app",
+      "github_repo": "ANGEOM21/farming-app",
+      "github_url": "https://github.com/ANGEOM21/farming-app",
+      "live_url": null,
+      "logo": "logos/farming-app.png",
+      "tech_stack": [
+        "Laravel",
+        "Filament",
+        "Tailwind",
+        "MySQL",
+        "Analytics"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "app-tar",
+      "name": "App-Tar (Tabungan & Kasbon)",
+      "category": "EdTech & School Finance",
+      "description": "Sistem tabungan & kasbon terintegrasi untuk siswa dan guru",
+      "local_directory": "E:/pemograman/laragon/app-tar",
+      "github_repo": "ANGEOM21/app-tar",
+      "github_url": "https://github.com/ANGEOM21/app-tar",
+      "live_url": null,
+      "logo": "logos/app-tar.png",
+      "tech_stack": [
+        "Laravel",
+        "Livewire",
+        "Tailwind",
+        "MySQL"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "laundry-syifa",
+      "name": "Aplikasi Web Laundry",
+      "category": "Business Operations & POS",
+      "description": "Aplikasi Laundry untuk manajemen pelanggan, transaksi, dan penyucian target",
+      "local_directory": "E:/pemograman/laragon/laundry",
+      "github_repo": "ANGEOM21/laundry-syifa",
+      "github_url": "https://github.com/ANGEOM21/laundry-syifa",
+      "live_url": "https://syifa-laundry.project-web.my.id",
+      "logo": "logos/laundry.webp",
+      "tech_stack": [
+        "PHP",
+        "JavaScript",
+        "Bootstrap",
+        "jQuery",
+        "MySQL"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "qr-cattering",
+      "name": "QR Scanner Catering",
+      "category": "Food & Ordering System",
+      "description": "Aplikasi pemesanan makanan online dengan verifikasi pengambilan berbasis Scan QR",
+      "local_directory": "E:/pemograman/laragon/Catering-Scanning",
+      "github_repo": "ANGEOM21/qr-cattering",
+      "github_url": "https://github.com/ANGEOM21/qr-cattering",
+      "live_url": "https://qr-catering.my.id/dashboard",
+      "logo": "logos/cattering.png",
+      "tech_stack": [
+        "Laravel",
+        "Filament",
+        "Tailwind",
+        "MySQL"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "desa-paskam",
+      "name": "Aplikasi Desa Pasirkamuning",
+      "category": "Public Sector & Governance",
+      "description": "Sistem informasi desa, administrasi surat menyurat, dan manajemen kependudukan",
+      "local_directory": "E:/pemograman/laragon/desa-paskam",
+      "github_repo": "ANGEOM21/desa-paskam",
+      "github_url": "https://github.com/ANGEOM21/desa-paskam",
+      "live_url": "https://desa-pasirkamuning.kkn-ubp-2025.my.id/",
+      "logo": "logos/desa.png",
+      "tech_stack": [
+        "Laravel",
+        "PHP",
+        "Tailwind",
+        "MySQL",
+        "Livewire",
+        "DaisyUI"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "antar-aje",
+      "name": "Antar Aje (Logistik)",
+      "category": "Logistics & Supply Chain",
+      "description": "Sistem pengantaran logistik paket barang, tracking resi real-time dan manajemen kurir",
+      "local_directory": "E:/pemograman/laragon/tracking-resi-antaraje",
+      "github_repo": "ANGEOM21/antar-aje",
+      "github_url": "https://github.com/ANGEOM21/antar-aje",
+      "live_url": "https://antar-aje.my.id/login",
+      "logo": "logos/antaraje.png",
+      "tech_stack": [
+        "Laravel",
+        "Livewire",
+        "Bootstrap",
+        "MySQL"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "sokuja-anime-api",
+      "name": "SOKUJA Anime Streaming Engine",
+      "category": "Web Scraping & Streaming",
+      "description": "High-performance automated video scraper & anime streaming API provider engine",
+      "local_directory": "D:/pemograman/NodeJs/SOKUJA",
+      "github_repo": "ANGEOM21/sokuja-anime-api",
+      "github_url": "https://github.com/ANGEOM21/sokuja-anime-api",
+      "live_url": null,
+      "logo": "logos/sokuja.svg",
+      "tech_stack": [
+        "Node.js",
+        "Express",
+        "Cheerio",
+        "REST API"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "chat-wa-bot-ai",
+      "name": "WhatsApp AI Bot Assistant",
+      "category": "AI & Chatbot Automation",
+      "description": "Automated intelligent WhatsApp assistant bot powered by LLM / AI",
+      "local_directory": "D:/pemograman/NodeJs/chat-wa-bot-ai",
+      "github_repo": "ANGEOM21/chat-wa-bot-ai",
+      "github_url": "https://github.com/ANGEOM21/chat-wa-bot-ai",
+      "live_url": null,
+      "logo": "logos/wa-bot.svg",
+      "tech_stack": [
+        "Node.js",
+        "WhatsApp API",
+        "AI / LLM",
+        "Automation"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "tulle-capture",
+      "name": "Tulle Capture",
+      "category": "Booking Platform & Media",
+      "description": "Platform booking videographer & wedding documentation portfolio",
+      "local_directory": "D:/pemograman/react/nextjs-cap-redux",
+      "github_repo": "ANGEOM21/capturing-moments",
+      "github_url": "https://github.com/ANGEOM21/capturing-moments",
+      "live_url": "https://capturing-moments.vercel.app/",
+      "logo": "logos/tulle.png",
+      "tech_stack": [
+        "React",
+        "Vite",
+        "Tailwind",
+        "Redux",
+        "Vercel"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "tik-snap-scrap",
+      "name": "TikTok Downloader (TikSnap)",
+      "category": "Web Tools & Scrapers",
+      "description": "Fast TikTok video downloader tanpa watermark berbasis API scraper",
+      "local_directory": "D:/pemograman/NodeJs/snap-tiktok",
+      "github_repo": "ANGEOM21/tik-snap-scrap",
+      "github_url": "https://github.com/ANGEOM21/tik-snap-scrap",
+      "live_url": "https://tiktok-snap.project-web.my.id/",
+      "logo": "logos/tiktok.png",
+      "tech_stack": [
+        "Express.js",
+        "Node.js",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Vite"
+      ],
+      "featured_in_profile": true
+    },
+    {
+      "id": "editflow-ai",
+      "name": "EditFlow AI",
+      "category": "AI & Media Workflow",
+      "description": "AI text & video workflow automation assistant",
+      "local_directory": "D:/pemograman/NodeJs/editflow-ai",
+      "github_repo": "ANGEOM21/editflow-ai",
+      "github_url": "https://github.com/ANGEOM21/editflow-ai",
+      "live_url": null,
+      "logo": null,
+      "tech_stack": [
+        "Node.js",
+        "AI / LLM",
+        "Automation"
+      ],
+      "featured_in_profile": false
+    },
+    {
+      "id": "sipt-ubp",
+      "name": "SIPT UBP & API Proxy",
+      "category": "Academic Systems & API Gateway",
+      "description": "Sistem Informasi Perguruan Tinggi terintegrasi dengan reverse proxy API server",
+      "local_directory": "D:/pemograman/react/sipt-ubp",
+      "github_repo": "ANGEOM21/sipt-ubp",
+      "github_url": "https://github.com/ANGEOM21/sipt-ubp",
+      "live_url": null,
+      "logo": null,
+      "tech_stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "API Proxy"
+      ],
+      "featured_in_profile": false
+    },
+    {
+      "id": "si-besi-build",
+      "name": "SI-BESI Build",
+      "category": "Inventory & Material Logistics",
+      "description": "Sistem inventori dan distribusi pengadaan material konstruksi & besi",
+      "local_directory": "E:/pemograman/laragon/si-besi-build",
+      "github_repo": "ANGEOM21/si-besi-build",
+      "github_url": "https://github.com/ANGEOM21/si-besi-build",
+      "live_url": null,
+      "logo": null,
+      "tech_stack": [
+        "Laravel",
+        "PHP",
+        "MySQL"
+      ],
+      "featured_in_profile": false
+    },
+    {
+      "id": "view-once-android",
+      "name": "ViewOnce Android Tool",
+      "category": "Mobile Applications",
+      "description": "Android native utility tool untuk manajemen & penyimpanan media View-Once WA privat",
+      "local_directory": "E:/pemograman/android/Aplikasi_Android/ViewOnce",
+      "github_repo": "ANGEOM21/view-once-android",
+      "github_url": "https://github.com/ANGEOM21/view-once-android",
+      "live_url": null,
+      "logo": null,
+      "tech_stack": [
+        "Android",
+        "Java/Kotlin",
+        "Mobile Security"
+      ],
+      "featured_in_profile": false
+    },
+    {
+      "id": "an-explorer",
+      "name": "AnExplorer File Manager",
+      "category": "Mobile Applications",
+      "description": "Aplikasi Android native file manager & storage browser kustom",
+      "local_directory": "E:/pemograman/android/Aplikasi_Android/AnExplorer",
+      "github_repo": "ANGEOM21/an-explorer",
+      "github_url": "https://github.com/ANGEOM21/an-explorer",
+      "live_url": null,
+      "logo": null,
+      "tech_stack": [
+        "Android",
+        "Java/Kotlin",
+        "File Systems"
+      ],
+      "featured_in_profile": false
+    },
+    {
+      "id": "solidity-web3-contracts",
+      "name": "Solidity Web3 Smart Contracts",
+      "category": "Web3 & Blockchain",
+      "description": "Pengembangan & pengujian smart contract terdesentralisasi berbasis Hardhat di EVM",
+      "local_directory": "D:/pemograman/SOLIDITY/solidity-local-project",
+      "github_repo": "ANGEOM21/solidity-smart-contracts",
+      "github_url": "https://github.com/ANGEOM21/solidity-smart-contracts",
+      "live_url": null,
+      "logo": null,
+      "tech_stack": [
+        "Solidity",
+        "Hardhat",
+        "Ethers.js",
+        "Web3"
+      ],
+      "featured_in_profile": false
+    }
+  ]
+}
