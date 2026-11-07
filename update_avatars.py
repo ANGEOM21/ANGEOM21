@@ -1,9 +1,28 @@
+import os
 import xml.etree.ElementTree as ET
 from PIL import Image, ImageOps, ImageEnhance
 
 # 1. Process profile photo
-img = Image.open(r"D:\berkas\profile.jpeg")
-crop = img.crop((0, 0, 900, 1080)).resize((300, 360), Image.Resampling.LANCZOS)
+profile_path = r"E:\pemograman\GITHUB\angeom21\profile.jpg"
+if not os.path.exists(profile_path):
+    profile_path = r"D:\berkas\profile.jpeg"
+
+img = Image.open(profile_path)
+w, h = img.size
+if w == 1254 and h == 1254:
+    crop = img.crop((50, 0, 1095, 1254)).resize((300, 360), Image.Resampling.LANCZOS)
+else:
+    target_ratio = 300 / 360
+    current_ratio = w / h
+    if current_ratio > target_ratio:
+        new_w = int(h * target_ratio)
+        left = (w - new_w) // 2
+        crop = img.crop((left, 0, left + new_w, h))
+    else:
+        new_h = int(w / target_ratio)
+        top = (h - new_h) // 2
+        crop = img.crop((0, top, w, top + new_h))
+    crop = crop.resize((300, 360), Image.Resampling.LANCZOS)
 gray = ImageOps.grayscale(crop)
 
 gray_dark = ImageEnhance.Contrast(gray).enhance(1.4)
